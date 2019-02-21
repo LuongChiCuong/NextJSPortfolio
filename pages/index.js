@@ -63,10 +63,10 @@ export default () => (
                           It is an interesting way for programmers who like immersive and interative on Web Platform.
                           Along with being passionate about managing and developing products,
                           I started with a different way that is Product Owner.
-                          It is a great movement to show your managerment, creative skills and product enthusiasm through each Sprint in the Scrum framework. 
+                          It is a great movement to show your managerment, creative skills and product enthusiasm through each Sprint in the Scrum framework.
                         </p>
                         <ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
+                            <li><Link href="/about"><a className="button next">Explore Me</a></Link></li>
                         </ul>
                     </div>
                 </section>
