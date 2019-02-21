@@ -7,8 +7,8 @@ import BannerLanding from '../components/BannerLanding'
 export default () => (
     <Layout>
         <Head>
-            <title>About Cuong Luong</title>
-            <meta name="description" content="Cuong Luong | Product Owner information" />
+            <title>Working Experience</title>
+            <meta name="description" content="Cuong Luong | The working experience of Cuong Luong" />
         </Head>
 
         <div>
@@ -18,7 +18,7 @@ export default () => (
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h2>My Journey</h2>
+                            <h2>Sed amet aliquam</h2>
                         </header>
                         <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
                     </div>
@@ -31,9 +31,12 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Journey to FrontEnd Developer.</h3>
+                                    <h3>Orci maecenas</h3>
                                 </header>
                                 <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <ul className="actions">
+                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                </ul>
                             </div>
                         </div>
                     </section>
@@ -44,19 +47,28 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Journey to Product Owner.</h3>
+                                    <h3>Rhoncus magna</h3>
                                 </header>
                                 <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <ul className="actions">
+                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                </ul>
                             </div>
                         </div>
                     </section>
                     <section>
+                        <Link href="/generic">
+                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
+                        </Link>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Education</h3>
+                                    <h3>Sed nunc ligula</h3>
                                 </header>
                                 <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <ul className="actions">
+                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                </ul>
                             </div>
                         </div>
                     </section>
