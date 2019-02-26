@@ -56,7 +56,7 @@ export default () => (
                         <span className="image main"><img src="/static/images/floware-pc.png" alt="Floware" /></span>
                         <h2>Floware - All in One managerment app.</h2>
                         <p><b>URL:</b> <a href="https://www.floware.com/"> https://www.floware.com/</a></p>
-                        <p><b>Goal:</b> Floware.</p>
+                        <p><b>Goal:</b> is an application built to provide user management benefits. This application allows users to integrate mail systems from google, apple, yahoo into a single place, helping users to manage calendars, notes and emails effectively.</p>
                         <p><b>Market:</b> USA</p>
                         <p><b>Role:</b> Front End Developer</p>
                       </li>
@@ -64,7 +64,7 @@ export default () => (
                         <span className="image main"><img src="/static/images/nailsuperstore-pc.png" alt="McAfee Security" /></span>
                         <h2>The Nailsuperstore - Top ecommerce websites in USA</h2>
                         <p><b>URL:</b> <a href="https://www.nailsuperstore.com/"> http://www.nailsuperstore.com/</a></p>
-                        <p><b>Goal:</b> Nailsuperstore.</p>
+                        <p><b>Goal:</b> Nailsuperstore aims to maintain Top 3 of leading e-commerce companies in the field of nail supply.</p>
                         <p><b>Market:</b> USA</p>
                         <p><b>Role:</b> Front End Developer</p>
                       </li>

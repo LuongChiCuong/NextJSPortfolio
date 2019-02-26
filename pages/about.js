@@ -12,7 +12,7 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding />
+            <BannerLanding bannerContent='About Cuong Luong'/>
 
             <div id="main">
                 <section id="one">

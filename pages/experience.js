@@ -12,67 +12,66 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding />
+            <BannerLanding bannerContent='My working Experiences'/>
 
             <div id="main">
-                <section id="one">
-                    <div className="inner">
-                        <header className="major">
-                            <h2>Sed amet aliquam</h2>
-                        </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-                    </div>
-                </section>
-                <section id="two" className="spotlights">
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Orci maecenas</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Rhoncus magna</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Sed nunc ligula</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </section>
+              <ul className="exp-list">
+                <li className="exp-list-item">
+                  <p className="exp-item-time"><i>AUGUST, 2018 - PRESENT</i></p>
+                  <p className="exp-item-role">Product Owner | FPT Information System (Vietnamese company)</p>
+                  <p className="exp-item-products">Products: <b>FLIR (Traffic Data), Face Recognition</b></p>
+                  Responsibilities:
+                  <ul>
+                    <li>Designed strategic plan for component development practices to support future projects.</li>
+                    <li>Oversaw product deployments, product market-fit into pre-production and the roll out into production.</li>
+                    <li>Focused on building critical features up front in order to identify constraints and technical challenges.</li>
+                    <li>Wireframe and write requirements/ specification for all new product features.</li>
+                    <li>Allocated and approved team resource usage.</li>
+                    <li>Build Scrum framework for product team and development team.</li>
+                    <li>Work closely with Vietnamese government client and global partner (Axis, Bosch, FLIR,...)</li>
+                  </ul>
+                </li>
+                <li className="exp-list-item">
+                  <p className="exp-item-time"><i>MAY 2017, AUGUST, 2018</i></p>
+                  <p className="exp-item-role">Product Owner | Mobiclix Pte (Singapore company)</p>
+                  <p className="exp-item-products">Products: <b>Mobile Payment Gateway, WWEsea, Hopster, Mcafee, Mocoplay</b></p>
+                  Responsibilities:
+                  <ul>
+                    <li>Owned and prioritized product backlog.</li>
+                    <li>Develop new products and enhance existing products.</li>
+                    <li>Assist with priorition decision making during sprint planning.</li>
+                    <li>Manage the product lifecycle from market requirements.</li>
+                    <li>Build Scrum team and process from scratch.</li>
+                    <li>Wireframe and write user story for all new product features.</li>
+                    <li>Engage closely with the engineering team to help determine the best technical implementation methods as well as reasonable implementation schedule.</li>
+                  </ul>
+                </li>
+                <li className="exp-list-item">
+                  <p className="exp-item-time"><i>APRIL, 2016 - MAY, 2017</i></p>
+                  <p className="exp-item-role">Front End Developer | Floware (USA company)</p>
+                  <p className="exp-item-products">Products: <b>Floware application</b></p>
+                  Responsibilities:
+                  <ul>
+                    <li>Build web application product based on AngularJS 1.</li>
+                    <li>Develop feature drag and drop.</li>
+                    <li>Build Ruby on Rails API.</li>
+                    <li>Developed designs to meet specific requirements such as quick-loading sites with particular layouts.</li>
+                  </ul>
+                </li>
+                <li className="exp-list-item">
+                  <p className="exp-item-time"><i>MARCH, 2015 - APRIL, 2016</i></p>
+                  <p className="exp-item-role">Front End Developer | The Nailsuperstore (USA company)</p>
+                  <p className="exp-item-products">Products: <b>E-commerce website Nailsuperstore.com</b></p>
+                  Responsibilities:
+                  <ul>
+                    <li>Developed brand strategy and statistics systems.</li>
+                    <li>Implement Email marketing.</li>
+                    <li>Research and develop new web technogoly.</li>
+                    <li>Convert PSD to HTML/CSS</li>
+                    <li>Implement responsive website.</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
 
         </div>

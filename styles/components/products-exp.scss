@@ -1,0 +1,44 @@
+// public class
+.format-list {
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+
+/* Products */
+
+.products {
+	@extend .format-list;
+  li {
+		h2 {
+			margin-bottom: 0.2rem;
+		}
+    p {
+      margin-bottom: 0;
+    }
+  }
+	& + * {
+		border-top: 0 !important;
+	}
+}
+
+.exp-list {
+	@extend .format-list;
+	.exp-list-item {
+		margin: 5rem 0 5rem 2rem;
+		font-size: 16px;
+		p {
+			margin-bottom: 0;
+			&.exp-item-time {
+				font-size: 14px;
+				i {
+					  border-bottom: 2px solid #424242;
+				}
+			}
+			&.exp-item-role {
+				font-size: 20px;
+				font-weight: 600;
+			}
+		}
+	}
+}
