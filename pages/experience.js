@@ -15,7 +15,7 @@ export default () => (
             <BannerLanding bannerContent='My working Experiences'/>
 
             <div id="main">
-              <ul className="exp-list">
+              <ul className="exp-list inner">
                 <li className="exp-list-item">
                   <p className="exp-item-time"><i>AUGUST, 2018 - PRESENT</i></p>
                   <p className="exp-item-role">Product Owner | FPT Information System (Vietnamese company)</p>
