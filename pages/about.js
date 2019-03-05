@@ -63,7 +63,18 @@ export default () => (
                                 <header className="major">
                                     <h3>Journey to Product Owner.</h3>
                                 </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <p>
+                                  Why do I switch to being a product owner?
+                                  <br/>
+                                  I often encounter this question when I go to interview in many companies.
+                                  For me the high level of product development must be work capable of managing and giving product development strategies.
+                                  <br/><br/>
+                                  I have experience in website development, as well as passion for user interface development.
+                                  <br/><br/>
+                                  So my goal is to use the experience gained with the soft skills I learned to advance to a position where I can bring products to new levels.
+                                  <br/><br/>
+                                  In my opinion, this position requires good soft skills such as operation, communication, teamwork and understand Scrum framework work based on Agile Manifesto.
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -73,7 +84,8 @@ export default () => (
                                 <header className="major">
                                     <h3>Education</h3>
                                 </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <p>
+                                </p>
                             </div>
                         </div>
                     </section>
