@@ -12,7 +12,7 @@ export default () => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
+                    <header className="major product-header">
                         <h1>Products Achievement</h1>
                     </header>
                     <ul className="products">

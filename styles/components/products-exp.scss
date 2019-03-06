@@ -4,8 +4,20 @@
 	margin: auto;
 	padding: 0;
 }
+@include keyframes('reveal-content') {
+	0% {opacity: 0; }
+	50% {opacity: 0.5;}
+	100% {opacity: 1; }
+}
 
 /* Products */
+.product-header {
+
+		@include vendor('animation', 'reveal-content 5s ease');
+		@include vendor('transition', (
+			'opacity #{_duration(transition)} ease-in-out'
+		));
+}
 
 .products {
 	@extend .format-list;

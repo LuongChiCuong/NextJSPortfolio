@@ -8,7 +8,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("/static/images/banner.jpg")');
+		@include vendor('background-image', 'url("/static/images/banner-1.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -45,6 +45,7 @@
 		}
 
 		> .inner {
+
 			@include vendor('transition', (
 				'opacity 1.5s ease',
 				'transform 0.5s ease-out',
@@ -93,7 +94,6 @@
 				}
 			}
 		}
-
 		&.major {
 			height: 75vh;
 			min-height: 30em;
