@@ -1,12 +1,12 @@
 {
   "name": "nextjs-forty",
   "version": "1.0.0",
-  "description": "",
+  "description": "The website was made by Cuong Luong with NextJS",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p 8000",
+    "start": "next start -p 9000",
     "export": "next build && next export"
   },
   "keywords": [],

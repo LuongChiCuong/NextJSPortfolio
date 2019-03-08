@@ -31,7 +31,7 @@ class Menu extends React.Component {
               </ul>
           </div>
           <a className="close" onClick={this.props.onToggleMenu} href="javascript:;">Close</a>
-      </nav>``
+      </nav>
     )
   }
 }
