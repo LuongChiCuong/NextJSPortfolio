@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
-            <div class="footer-logo">
+            <div className="footer-logo">
               <Link href="/">
                   <a className="logo"><strong>Cuong</strong> <span>Luong</span></a>
               </Link>
