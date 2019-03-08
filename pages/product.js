@@ -54,7 +54,7 @@ export default () => (
                       </li>
                       <li>
                         <span className="image main"><img src="/static/images/floware-pc.png" alt="Floware" /></span>
-                        <h2>Floware - All in One managerment app.</h2>
+                        <h2>Floware - All in One management app.</h2>
                         <p><b>URL:</b> <a href="https://www.floware.com/"> https://www.floware.com/</a></p>
                         <p><b>Goal:</b> is an application built to provide user management benefits. This application allows users to integrate mail systems from google, apple, yahoo into a single place, helping users to manage calendars, notes and emails effectively.</p>
                         <p><b>Market:</b> USA</p>
