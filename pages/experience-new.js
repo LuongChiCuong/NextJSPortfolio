@@ -12,10 +12,11 @@ export default () => (
         </Head>
 
         <div id="main" className="alt">
-
-            <div>Header</div>
-            <div>Content</div>
-            <div>Footer</div>
+            <section>
+              <div className="banner">Header</div>
+            </section>
+            <section>Content</section>
+            <section>Footer</section>
 
         </div>
     </Layout>

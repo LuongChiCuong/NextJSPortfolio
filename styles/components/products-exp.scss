@@ -34,11 +34,21 @@
 	}
 }
 
+.exp-nav{
+	margin: 5rem auto 0 auto;
+	padding: 2rem 1rem;
+	a {
+		margin: 0 1rem;
+	}
+}
+
 .exp-list {
 	@extend .format-list;
+	padding: 0 !important;
 	.exp-list-item {
-		margin: 5rem auto;
+		// margin: 5rem auto;
 		font-size: 16px;
+		padding: 0;
 		p {
 			margin-bottom: 0;
 			&.exp-item-time {
@@ -53,4 +63,12 @@
 			}
 		}
 	}
+}
+
+.banner {
+	margin: auto 15px;
+	background: aqua;
+	text-align: center;
+	height: 150px;
+	border-radius: 10px;
 }

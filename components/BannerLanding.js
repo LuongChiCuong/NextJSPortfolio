@@ -7,7 +7,7 @@ const BannerLanding = (props) => (
                 <h1>{props.bannerContent}</h1>
             </header>
             <div className="content">
-                <p>Love the products and the websites that useful for everyone.<br />
+                <p>
                 Creative - Immersive - Difference.</p>
             </div>
         </div>

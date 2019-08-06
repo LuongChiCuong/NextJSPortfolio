@@ -12,14 +12,18 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding bannerContent='My working Experiences'/>
-
+            <BannerLanding bannerContent='Working Experiences'/>
             <div id="main">
+              <div className="exp-nav">
+                <a href="#">Product Management</a>
+                <a href="#">Technical Development</a>
+              </div>
+              <div>
               <ul className="exp-list inner">
                 <li className="exp-list-item">
                   <p className="exp-item-time"><i>AUGUST, 2018 - PRESENT</i></p>
-                  <p className="exp-item-role">Product Owner | FPT Information System (Vietnamese company)</p>
-                  <p className="exp-item-products">Products: <b>FLIR (Traffic Data), Face Recognition</b></p>
+                  <p className="exp-item-role">Product Owner | FPT IS</p>
+                  <p className="exp-item-products">Products: <b>Smart Transportation, Face Recognition</b></p>
                   Responsibilities:
                   <ul>
                     <li>Designed strategic plan for component development practices to support future projects.</li>
@@ -72,6 +76,8 @@ export default () => (
                   </ul>
                 </li>
               </ul>
+              </div>
+
             </div>
 
         </div>
